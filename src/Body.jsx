@@ -16,6 +16,7 @@ import '@splidejs/react-splide/css/core';
 
 import Excel from "./Excel"
 import QRCodeGenerate from "./QRCode"
+import AgeAnalytics from "./AgeAnalytics"
 
 function Body() {
 
@@ -416,6 +417,10 @@ function Body() {
                 <Excel />
 
                 <QRCodeGenerate price={50.50} />
+
+                <div className="my-2 border-t p-2">
+                    <AgeAnalytics />
+                </div>
 
             </div>
         </div>
